@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_main" />
+    <Button
+        android:layout_below="@+id/app_bar"
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="GET"/>
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_below="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="POST"/>
+    <Button
+        android:id="@+id/btn_put"
+        android:layout_below="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUT"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_delet_web_services"
+        android:layout_below="@+id/btn_put"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELET"/>
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_below="@+id/btn_delet_web_services"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"/>
+
+    <Button
+        android:id="@+id/btn_notificationbettryweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_notification"
+        android:layout_centerHorizontal="true"
+        android:text="bettry notification" />
+    <Button
+        android:id="@+id/btn_contectweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_notificationbettryweb"
+        android:layout_centerHorizontal="true"
+        android:text="context"/>
+
+
+
+</RelativeLayout>

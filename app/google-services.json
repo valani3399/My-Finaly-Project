@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1063949557990",
+    "firebase_url": "https://ordinal-tower-210411.firebaseio.com",
+    "project_id": "ordinal-tower-210411",
+    "storage_bucket": "ordinal-tower-210411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063949557990:android:a2f27f131c251458",
+        "android_client_info": {
+          "package_name": "com.example.softices.pankajtrainee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063949557990-mtsnk15ueq78kg412lu2htmpk5piltlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.softices.pankajtrainee",
+            "certificate_hash": "bd0dc68a1e34650ad9e97892dd52302c647f5e56"
+          }
+        },
+        {
+          "client_id": "1063949557990-488suu9ivsebhh7s57bed3in8savqc0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf5PSmdPNxEWxUlw2DrBueXStdYIqlRRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063949557990-488suu9ivsebhh7s57bed3in8savqc0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

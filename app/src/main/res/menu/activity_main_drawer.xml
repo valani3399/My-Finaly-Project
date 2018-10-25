@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_username"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="User Detail" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Show Map" />
+        <item
+            android:id="@+id/nav_webservices"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Web Services" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Background_sarvices" />
+        <item
+            android:id="@+id/nav_con_provider"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Contrnt provider" />
+        <item
+            android:id="@+id/nav_broadcast"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Broadcast" />
+        <item
+            android:id="@+id/nav_dialogbox"
+            android:icon="@drawable/ic_menu_share"
+            android:title="DialoadBOx" />
+        <item
+            android:id="@+id/nav_tablayout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Tab Layout" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Log Out" />
+    </group>
+</menu>

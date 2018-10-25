@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+    <TextView
+        android:id="@+id/tv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD PHOTO !"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="15dp"/>
+    <TextView
+        android:id="@+id/tv_takephoto"
+        android:layout_below="@+id/tv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAKE PHOTO"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingBottom="15dp"/>
+    <TextView
+        android:id="@+id/tv_choosegally"
+        android:layout_below="@+id/tv_takephoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE FROM GALLERY"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingBottom="15dp"/>
+    <TextView
+        android:id="@+id/tv_cancle"
+        android:layout_below="@+id/tv_choosegally"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCLE"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingBottom="15dp"/>
+
+</RelativeLayout>
